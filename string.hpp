@@ -25,7 +25,7 @@ public:
 
     friend ostream& operator<<(ostream& ostream, const String& str);
 
-    String& operator=(const String& other);
+    String& operator=(const String& rhs);
 };
 
 #endif
